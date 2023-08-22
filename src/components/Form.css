@@ -1,0 +1,30 @@
+.form-data {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 60%;
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1em;
+}
+
+form label, input{
+  margin: 0.2em 0;
+}
+
+form input {
+  border-radius: 8px;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+}
+
+form span {
+  color: green;
+  font-size: 0.6em;
+}

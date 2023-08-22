@@ -1,0 +1,15 @@
+.musics {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(84, 84, 84);
+  width: 60%;
+  padding: 10px 10px;
+  border-radius: 8px;
+}
+
+.musics h2{
+  margin: 0.2em 0;
+}

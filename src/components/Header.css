@@ -1,0 +1,9 @@
+header {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  line-height: 60px;
+  padding: 10px 10px;
+  width: 100%;
+}
