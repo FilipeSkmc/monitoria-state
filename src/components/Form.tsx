@@ -18,7 +18,7 @@ function Form({ setShowForm, handleAddMusic }: FormProps) {
 
   // validações
   const nameOk = name.length < 2;
-  const durationOk = (/^[0-9]+:[0-9]{2}$/).test(duration);
+  const durationOk = (/^[0-9]{2}:[0-9]{2}$/).test(duration);
 
   // desabilitando o botão de adicionar
   const disabled = nameOk || !durationOk;
